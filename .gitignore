@@ -1,0 +1,70 @@
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.cert
+
+# Python & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE & Editor Artifacts
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+tempCodeRunnerFile.*
+
+# Media & Temporary Data
+*.mp3
+*.m4a
+*.mp4
+*.wav
+*.aac
+*.flac
+*.webm
+*.mov
+media/
+downloads/
+visual_downloads/
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Spike & Volume Data
+spike_data/
+
+# Legacy Data
+legacy/
